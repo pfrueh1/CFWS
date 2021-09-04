@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: aqua;
+    font-size: 40px;
+    text-align: center;
+    background-image: linear-gradient(rgba(109, 109, 106, 0.089), rgb(73, 73, 73), rgba(109, 109, 106, 0.089));
+    text-shadow: 0 0 3px black;
+    /*height: 150px;*/
+   /* padding-top: 40px;*/
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("./images/bubbles-background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-us {
+    padding-top: 30px;
+    max-width: 33%;
+    justify-self: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-us p {
+    margin-bottom: 30px;
+}
+
+.about-us img {
+   /* padding-bottom: 30px;*/
+    /*border-bottom: aqua solid 5px;*/
+    width:400px;
+    height: 350px;
+    border: solid black 3px;
+    border-radius: 10%;
+
+}
+
+.photo-column {
+    width:33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.photo-column img {
+    width:350px;
+    height: 350px;
+    margin:100px, 30px, 30px, 30px;
+    padding: 100px, 30px, 30px, 30px;
+    border: solid black 3px;
+    border-radius: 10%;
+}
+
+footer {
+    background-image: linear-gradient(rgba(109, 109, 106, 0.089), rgb(73, 73, 73), rgba(109, 109, 106, 0.089));
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+}
