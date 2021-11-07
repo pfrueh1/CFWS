@@ -36,6 +36,7 @@ header {
     margin-bottom: 30px;
     background: rgba(49, 104, 121, 0.178);
     border-radius: 5%;
+    border:solid rgb(49, 104, 121) 3px;
 }
 
 .about-us img {
