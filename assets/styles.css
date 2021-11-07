@@ -15,7 +15,7 @@ header {
 
 .columns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-image: url("./images/bubbles-background.jpg");
     background-size: cover;
     background-position: center;
@@ -23,14 +23,19 @@ header {
 
 .about-us {
     padding-top: 30px;
-    max-width: 33%;
-    justify-self: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* max-width: 33%; */
+    /* justify-self: center; */
     font-size: 30px;
     text-align: center;
+    justify-content: center;
 }
 
 .about-us p {
     margin-bottom: 30px;
+    background: rgba(49, 104, 121, 0.178);
+    border-radius: 5%;
 }
 
 .about-us img {
@@ -66,3 +71,20 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 575px) {
+    .photo-column img {
+        display:none;
+    }
+
+    .about-us img{
+        width:350px;
+        height: 350px;
+    }
+
+    #logo,
+    #van {
+        display: none;
+    }
+
+  }
